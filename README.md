@@ -7,7 +7,7 @@ It includes Verilog code to program the FPGA of the RedPitaya board to trigger o
 
 The HDL code was compiled with Vivado v2019.1
 
-# CAUTION
+## CAUTION
 This project includes a programmable double-pulse generator. 
 The pulse generator produces pulses of 3.3 V amplitude. If you use it CHANGE THE RANGE SELECTOR OF THE RedPitaya BOARD TO HV.
 
