@@ -52,9 +52,9 @@ The HDL code was compiled with Vivado v2019.1
 
 - ``` 0x41230000  Delta Time Measured 		13:0 	Read ```
 
-                                                                                                       
-``` 
 ## CAUTION
+                                                                                                       
+
 
 This project includes a programmable double-pulse generator. 
 
