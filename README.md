@@ -7,6 +7,8 @@ It includes Verilog code to program the FPGA of the RedPitaya board to trigger o
 
 The HDL code was compiled with Vivado v2019.1
 
+This project produces a trigger pulse of 3.3 V amplitude on DIO7_N of the extension connector E1 that can be used as external trigger to an oscilloscope.
+
 ## Memory Map
 
   ### Memory Loc  Function					      Bits	R/W                                                                                                     
