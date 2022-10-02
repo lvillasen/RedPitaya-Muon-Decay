@@ -9,6 +9,9 @@ The HDL code was compiled with Vivado v2019.1
 
 ## Memory Map
 
+                                                                                                       
+``` 
+
 ### Memory Loc  Function					      Bits	R/W
 
 - 0x41200000  Trigger Treshold 			    29:16 	Write
@@ -49,7 +52,8 @@ The HDL code was compiled with Vivado v2019.1
 
 - 0x41230000  Delta Time Measured 		13:0 	Read
 
-
+                                                                                                       
+``` 
 ## CAUTION
 
 This project includes a programmable double-pulse generator. 
