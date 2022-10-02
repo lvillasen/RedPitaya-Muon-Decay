@@ -45,9 +45,6 @@ The HDL code was compiled with Vivado v2019.1
 
 - ``` 0x41220008  Clear Counters			 	 1:1 	Write ```
 
-
-
-
 - ``` 0x41230008  Trigger_Edge 				 0:0 	Write ```
 
 - ``` 0x41230000  Delta Time Measured 		13:0 	Read ```
@@ -58,7 +55,7 @@ The HDL code was compiled with Vivado v2019.1
 
 This project includes a programmable double-pulse generator. 
 
-The pulse generator produces pulses of 3.3 V amplitude. 
+The pulse generator produces pulses of 3.3 V amplitude on DIO7_P of the extension connector E1. 
 
 If you decide to use this pulse generator, CHANGE THE RANGE SELECTOR OF THE RedPitaya BOARD TO HV.
 
