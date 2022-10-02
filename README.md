@@ -35,19 +35,19 @@ This project produces a trigger pulse of 3.3 V amplitude on DIO7_N of the extens
 
 - ``` 0x41210000  Start 						 0:0 	Write ```
 
-- ``` 0x41210008  Num Single_Pulse Triggers 	15:0 	Read ```
+- ``` 0x41210008  Num Single-Pulse Triggers 	15:0 	Read ```
 
-- ``` 0x41210008  Num Doublele_Pulse Triggers 31:16 	Read ```
+- ``` 0x41210008  Num Double-Pulse Triggers 31:16 	Read ```
 
 - ``` 0x41220000  Points saved after Trigger 	31:16 	Write ```
 
-- ``` 0x41220000  Window for Dble-Pulse Trig 	15:0 	Write ```
+- ``` 0x41220000  Window for Double-Pulse Trig 	15:0 	Write ```
 
 - ``` 0x41220008  Select Single/Double Mode	 0:0 	Write ```
 
 - ``` 0x41220008  Clear Counters			 	 1:1 	Write ```
 
-- ``` 0x41230008  Trigger_Edge 				 0:0 	Write ```
+- ``` 0x41230008  Trigger Edge 				 0:0 	Write ```
 
 - ``` 0x41230000  Delta Time Measured 		13:0 	Read ```
 
