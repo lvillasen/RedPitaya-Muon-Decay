@@ -9,14 +9,14 @@ The HDL code was compiled with Vivado v2019.1
 
 ## Memory Map
 
-                                                                                                       
-``` 
+  ### Memory Loc  Function					      Bits	R/W                                                                                                     
+ 
 
-### Memory Loc  Function					      Bits	R/W
 
-- 0x41200000  Trigger Treshold 			    29:16 	Write
 
-- 0x41200000  Address ro Read Port B 		15:4 	Write
+- ``` 0x41200000  Trigger Treshold 			    29:16 	Write ```
+
+- ``` 0x41200000  Address ro Read Port B 		15:4 	Write ```
 
 - 0x41200000  Clock Port B 				        0:0 	Write
 
