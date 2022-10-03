@@ -53,7 +53,7 @@ This project produces a trigger pulse of 3.3 V amplitude on DIO7_N of the extens
 
 - ``` 0x41230000  Delta Time Measured 		13:0 	Read ```
 
-See jupiter notebook for further description some of these parameters
+See the jupiter notebook for further description some of these parameters
 
 ## CAUTION
                                                                                                        
