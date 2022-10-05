@@ -14,7 +14,7 @@ module double_pulse_trigger (
   always @(posedge clk, posedge int_trig)
   begin
   if (int_trig) begin
-    if (counter == window)
+    if (counter >= window)
       counter <= 16'd0;
     else if ((counter > 16'd0) && (counter < window))
       double_trig <= 1'b1;
