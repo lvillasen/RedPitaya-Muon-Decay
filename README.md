@@ -51,7 +51,7 @@ This project produces a trigger pulse of 3.3 V amplitude on DIO7_N of the extens
 
 - ``` 0x41230008  Trigger Edge 				 0:0 	Write ```
 
-- ``` 0x41230008  Veto after 1st trigger 		7:0 	Write ```
+- ``` 0x41230008  Veto after 1st trigger 		11:4 	Write ```
 
 - ``` 0x41230000  Delta Time Measured 		13:0 	Read ```
 
