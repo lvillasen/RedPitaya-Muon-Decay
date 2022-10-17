@@ -9,6 +9,8 @@ The project was compiled with Vivado v2019.1 for the Red Pitaya STEMlab 125-14.
 
 This project produces a trigger pulse of 3.3 V amplitude on DIO7_N of the extension connector E1 that can be used as external trigger to an oscilloscope.
 
+See https://github.com/lvillasen/Muon-Decay-Simulations for Monte Carlo simulations related to the muon-decay experiment.
+
 ## Memory Map
 
   ### Memory Loc  Function					      Bits	R/W                                                                                                     
@@ -54,6 +56,14 @@ This project produces a trigger pulse of 3.3 V amplitude on DIO7_N of the extens
 - ``` 0x41230008  Veto after 1st trigger 		11:4 	Write ```
 
 - ``` 0x41230000  Delta Time Measured 		13:0 	Read ```
+
+- ``` 0x41240000  Clock for port A of RAM for DAC 		0:0 	Write ```
+
+- ``` 0x41240000  Reset port A of RAM for DAC 		2:2 	Write ```
+
+- ``` 0x41240000  Reset port B of RAM for DAC 		3:3 	Write ```
+
+
 
 See the jupiter notebook for further description some of these parameters
 
