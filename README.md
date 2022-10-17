@@ -59,9 +59,12 @@ See https://github.com/lvillasen/Muon-Decay-Simulations for Monte Carlo simulati
 
 - ``` 0x41240000  Clock for port A of RAM for DAC 		0:0 	Write ```
 
-- ``` 0x41240000  Reset port A of RAM for DAC 		2:2 	Write ```
+- ``` 0x41240000  Reset port A of RAM for DAC 		1:1 	Write ```
 
-- ``` 0x41240000  Reset port B of RAM for DAC 		3:3 	Write ```
+- ``` 0x41240000  Reset port B of RAM for DAC 		1:1 	Write ```
+
+- ``` 0x41240000  Data of arbitrary signal loaded to port A of RAM  		29:16 	Write ```
+
 
 
 
