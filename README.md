@@ -68,7 +68,7 @@ See https://github.com/lvillasen/Muon-Decay-Simulations for Monte Carlo simulati
 
 
 
-See the jupiter notebook for further description some of these parameters
+See the jupiter notebook for further description of some of these parameters
 
 ## CAUTION
                                                                                                        
