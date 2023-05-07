@@ -15,13 +15,9 @@ See https://github.com/lvillasen/Muon-Decay-Simulations for Monte Carlo simulati
 
 - Clone the repositiry
 
-- Create a new project with Vivado (tested with Vivado v2019.1) see https://www.xilinx.com/support/download.html
+- Program the FPGA with the command 
 
-- Select the device xc7z010clg400-1 
-
-- Add the constraint *redpitaya.xdc* and the required verilog files from the repository.
-
-- Program the FPGA with the command *cat muon_decay.bit > /dev/xdevcfg* 
+    cat muon_decay.bit > /dev/xdevcfg
 
 - Use the Jupyter-Notebook provided.
 
