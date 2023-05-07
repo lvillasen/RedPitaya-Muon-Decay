@@ -11,6 +11,25 @@ This project produces a trigger pulse of 3.3 V amplitude on DIO7_N of the extens
 
 See https://github.com/lvillasen/Muon-Decay-Simulations for Monte Carlo simulations related to the muon-decay experiment.
 
+## Usage
+
+- Clone the repositiry
+
+- Create a new project with Vivado (tested with Vivado v2019.1) see https://www.xilinx.com/support/download.html
+
+- Select the device xc7z010clg400-1 
+
+- Add the constraint *redpitaya.xdc* and the required verilog files from the repository.
+
+- Program the FPGA with the command *cat muon_decay.bit > /dev/xdevcfg* 
+
+- Use the Jupyter-Notebook provided.
+
+- Reboot the RedPitaya board or *cat fpga_0.94.bit > /dev/xdevcfg* to reinstall the official bitstream on the Zynq FPGA.
+
+
+
+
 ## Memory Map
 
   ### Memory Loc  Function					      Bits	R/W                                                                                                     
