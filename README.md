@@ -17,7 +17,7 @@ See https://github.com/lvillasen/Muon-Decay-Simulations for Monte Carlo simulati
 
 - Program the FPGA with the command 
 
-        cat muon_decay.bit > /dev/xdevcfg
+        cat Muon_Decay.bit > /dev/xdevcfg
 
 - Use the Jupyter-Notebook provided.
 
