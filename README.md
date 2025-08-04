@@ -97,6 +97,13 @@ The pulse generator produces pulses of 3.3 V amplitude on DIO7_P of the extensio
 
 If you decide to use this pulse generator, CHANGE THE RANGE SELECTOR OF THE RedPitaya BOARD TO HV.
 
+#### another project to reprogram the FPGA to measure the lifetimes of decaying muons in a liquid-scintillation detector can be found here:
 
+- https://github.com/lvillasen/Muon-Decay
+
+### Live demo of muons decaying in real time 
+  
+- https://ciiec.buap.mx/Muon-Decay
+  
 ## Licence
 MIT
